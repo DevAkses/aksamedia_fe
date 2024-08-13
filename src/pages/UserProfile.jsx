@@ -1,4 +1,3 @@
-// src/pages/UserProfile.js
 import React, { useState } from "react";
 import { UserController } from "../controllers/UserController";
 
@@ -10,7 +9,7 @@ export default function UserProfile() {
         if (user) {
             const updatedUser = { ...user, username };
             UserController.updateUser(updatedUser);
-            window.location.reload(); // Reload to reflect changes in the Navbar
+            window.location.reload(); 
         }
     };
 

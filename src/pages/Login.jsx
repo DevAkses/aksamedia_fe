@@ -22,7 +22,7 @@ export default function Login({ onLogin }) {
 
     return (
         <div className="min-h-screen flex flex-col">
-            <Navbar /> {/* Tambahkan Navbar */}
+            <Navbar /> 
             <div className="flex-grow flex justify-center items-center bg-gray-100 dark:bg-gray-800">
                 <div className="max-w-sm w-full bg-white p-8 rounded shadow-md dark:bg-gray-900">
                     <h2 className="text-2xl font-bold mb-4 text-gray-900 dark:text-gray-100">Login</h2>

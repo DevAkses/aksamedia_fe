@@ -1,4 +1,3 @@
-// src/models/UserModel.js
 export class UserModel {
     constructor(username, password) {
         this.username = username;

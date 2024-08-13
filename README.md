@@ -45,7 +45,7 @@ git clone https://github.com/DevAkses/aksamedia_fe
 Change into the project directory:
 
 ```bash
-cd your-directory-name
+cd your-directory
 ```
 
 ### 3. Install Dependencies
@@ -75,3 +75,13 @@ Or if you prefer using Yarn:
 ```bash
 yarn dev
 ```
+
+### Login 
+
+Two accounts have been statically setup:
+
+- Username: user1, Password: password1
+
+- Username: user2, Password: password2
+
+Use these credentials to login to the application.
