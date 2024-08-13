@@ -9,7 +9,7 @@ export default function ArticleDetail() {
     if (!article) return <p>Article not found</p>;
 
     return (
-        <div className="container mx-auto p-4">
+        <div className="container mx-auto p-4 bg-white text-gray-900 dark:bg-gray-800 dark:text-gray-100">
             <h1 className="text-2xl font-bold mb-4">{article.title}</h1>
             <p>{article.content}</p>
         </div>

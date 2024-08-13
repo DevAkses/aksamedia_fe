@@ -6,6 +6,7 @@ import ArticleList from "./pages/ArticleList";
 import ArticleDetail from "./pages/ArticleDetail";
 import ArticleAdd from "./pages/ArticleAdd";
 import ArticleUpdate from "./pages/ArticleUpdate";
+import UserProfile from "./pages/UserProfile";
 import Navbar from "./components/Navbar";
 import { AuthController } from "./controllers/AuthController";
 
@@ -70,6 +71,14 @@ export default function AppRoutes() {
                     element={
                         <ProtectedRoute>
                             <ArticleDetail />
+                        </ProtectedRoute>
+                    }
+                />
+                <Route
+                    path="/user-profile"
+                    element={
+                        <ProtectedRoute>
+                            <UserProfile />
                         </ProtectedRoute>
                     }
                 />
